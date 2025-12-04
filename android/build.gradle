@@ -26,7 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 31
-
+    namespace 'github.HolyWarrior.flutter_sensors'
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
